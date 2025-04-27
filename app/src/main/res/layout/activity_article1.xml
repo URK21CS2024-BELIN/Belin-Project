@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article1">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="408dp"
+        android:layout_height="257dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="413dp"
+            android:layout_height="329dp"
+            android:text="Quit mobile phones and boring socializing
+Mobile phones have basically dominated the lives of most people, and boring social interactions are becoming more and more pervasive in our lives. If we want to study hard, we must quit mobile phones and boring social interactions and spend this time studying.
+
+Persevere in accomplishing your goals.
+No matter what you do, it’s all about persistence, no matter how big or small it is. As long as you persist, you will definitely gain a different self. Learning is the same. No matter what you learn, you must persist.
+
+Continuous reflection and continuous improvement
+Persevering in learning is not always very hard work, but maintaining an attitude of learning in the continuous struggle. We must continue to reflect and continue to motivate ourselves to study harder.
+Self-pressure
+Like determination, this high score factor reflects the students’ desire for success. It ranks much higher than external factors such as parents and peer pressure.
+
+Intentions
+This is also a factor that scores quite high. Although it is similar to determination, ambition is more focused on the final result than the present. For many gifted students, getting high scores is important because it helps them pursue their careers and achieve personal goals.
+
+Ingenuity
+Ok! No one says that intelligence is not important, but it is far less important than factors such as determination and hard work. The point is that you don’t have to be a genius to perform well in school; most gifted students also have to study hard to achieve their current achievements.
+
+Family support and parental pressure
+Gifted students rank the support of their families higher than their parents who always ask them to get A’s. In my survey, the vast majority of people (about three-quarters) said their parents support them. Only 18% said that getting good grades was pressured by their parents, and 7% of parents didn’t care about their school performance. "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.159" />
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="411dp"
+        android:layout_height="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="413dp"
+            android:layout_height="329dp"
+            android:text="--.- ..- .. - / -- --- -... .. .-.. . / .--. .... --- -. . ... / .- -. -.. / -... --- .-. .. -. --. / ... --- -.-. .. .- .-.. .. --.. .. -. --. / -- --- -... .. .-.. . / .--. .... --- -. . ... / .... .- ...- . / -... .- ... .. -.-. .- .-.. .-.. -.-- / -.. --- -- .. -. .- - . -.. / - .... . / .-.. .. ...- . ... / --- ..-. / -- --- ... - / .--. . --- .--. .-.. . --..-- / .- -. -.. / -... --- .-. .. -. --. / ... --- -.-. .. .- .-.. / .. -. - . .-. .- -.-. - .. --- -. ... / .- .-. . / -... . -.-. --- -- .. -. --. / -- --- .-. . / .- -. -.. / -- --- .-. . / .--. . .-. ...- .- ... .. ...- . / .. -. / --- ..- .-. / .-.. .. ...- . ... .-.-.- / .. ..-. / .-- . / .-- .- -. - / - --- / ... - ..- -.. -.-- / .... .- .-. -.. --..-- / .-- . / -- ..- ... - / --.- ..- .. - / -- --- -... .. .-.. . / .--. .... --- -. . ... / .- -. -.. / -... --- .-. .. -. --. / ... --- -.-. .. .- .-.. / .. -. - . .-. .- -.-. - .. --- -. ... / .- -. -.. / ... .--. . -. -.. / - .... .. ... / - .. -- . / ... - ..- -.. -.-- .. -. --. .-.-.- / .--. . .-. ... . ...- . .-. . / .. -. / .- -.-. -.-. --- -- .--. .-.. .. ... .... .. -. --. / -.-- --- ..- .-. / --. --- .- .-.. ... .-.-.- / -. --- / -- .- - - . .-. / .-- .... .- - / -.-- --- ..- / -.. --- --..-- / .. - .-..-. ... / .- .-.. .-.. / .- -... --- ..- - / .--. . .-. ... .. ... - . -. -.-. . --..-- / -. --- / -- .- - - . .-. / .... --- .-- / -... .. --. / --- .-. / ... -- .- .-.. .-.. / .. - / .. ... .-.-.- / .- ... / .-.. --- -. --. / .- ... / -.-- --- ..- / .--. . .-. ... .. ... - --..-- / -.-- --- ..- / .-- .. .-.. .-.. / -.. . ..-. .. -. .. - . .-.. -.-- / --. .- .. -. / .- / -.. .. ..-. ..-. . .-. . -. - / ... . .-.. ..-. .-.-.- / .-.. . .- .-. -. .. -. --. / .. ... / - .... . / ... .- -- . .-.-.- / -. --- / -- .- - - . .-. / .-- .... .- - / -.-- --- ..- / .-.. . .- .-. -. --..-- / -.-- --- ..- / -- ..- ... - / .--. . .-. ... .. ... - .-.-.- / -.-. --- -. - .. -. ..- --- ..- ... / .-. . ..-. .-.. . -.-. - .. --- -. / .- -. -.. / -.-. --- -. - .. -. ..- --- ..- ... / .. -- .--. .-. --- ...- . -- . -. - / .--. . .-. ... . ...- . .-. .. -. --. / .. -. / .-.. . .- .-. -. .. -. --. / .. ... / -. --- - / .- .-.. .-- .- -.-- ... / ...- . .-. -.-- / .... .- .-. -.. / .-- --- .-. -.- --..-- / -... ..- - / -- .- .. -. - .- .. -. .. -. --. / .- -. / .- - - .. - ..- -.. . / --- ..-. / .-.. . .- .-. -. .. -. --. / .. -. / - .... . / -.-. --- -. - .. -. ..- --- ..- ... / ... - .-. ..- --. --. .-.. . .-.-.- / .-- . / -- ..- ... - / -.-. --- -. - .. -. ..- . / - --- / .-. . ..-. .-.. . -.-. - / .- -. -.. / -.-. --- -. - .. -. ..- . / - --- / -- --- - .. ...- .- - . / --- ..- .-. ... . .-.. ...- . ... / - --- / ... - ..- -.. -.-- / .... .- .-. -.. . .-. .-.-.- / ... . .-.. ..-. -....- .--. .-. . ... ... ..- .-. . / .-.. .. -.- . / -.. . - . .-. -- .. -. .- - .. --- -. --..-- / - .... .. ... / .... .. --. .... / ... -.-. --- .-. . / ..-. .- -.-. - --- .-. / .-. . ..-. .-.. . -.-. - ... / - .... . / ... - ..- -.. . -. - ... .-..-. / -.. . ... .. .-. . / ..-. --- .-. / ... ..- -.-. -.-. . ... ... .-.-.- / .. - / .-. .- -. -.- ... / -- ..- -.-. .... / .... .. --. .... . .-. / - .... .- -. / . -..- - . .-. -. .- .-.. / ..-. .- -.-. - --- .-. ... / ... ..- -.-. .... / .- ... / .--. .- .-. . -. - ... / .- -. -.. / .--. . . .-. / .--. .-. . ... ... ..- .-. . .-.-.- / .. -. - . -. - .. --- -. ... / - .... .. ... / .. ... / .- .-.. ... --- / .- / ..-. .- -.-. - --- .-. / - .... .- - / ... -.-. --- .-. . ... / --.- ..- .. - . / .... .. --. .... .-.-.- / .- .-.. - .... --- ..- --. .... / .. - / .. ... / ... .. -- .. .-.. .- .-. / - --- / -.. . - . .-. -- .. -. .- - .. --- -. --..-- / .- -- -... .. - .. --- -. / .. ... / -- --- .-. . / ..-. --- -.-. ..- ... . -.. / --- -. / - .... . / ..-. .. -. .- .-.. / .-. . ... ..- .-.. - / - .... .- -. / - .... . / .--. .-. . ... . -. - .-.-.- / ..-. --- .-. / -- .- -. -.-- / --. .. ..-. - . -.. / ... - ..- -.. . -. - ... --..-- / --. . - - .. -. --. / .... .. --. .... / ... -.-. --- .-. . ... / .. ... / .. -- .--. --- .-. - .- -. - / -... . -.-. .- ..- ... . / .. - / .... . .-.. .--. ... / - .... . -- / .--. ..- .-. ... ..- . / - .... . .. .-. / -.-. .- .-. . . .-. ... / .- -. -.. / .- -.-. .... .. . ...- . / .--. . .-. ... --- -. .- .-.. / --. --- .- .-.. ... .-.-.- / .. -. --. . -. ..- .. - -.-- / --- -.- -.-.-- / -. --- / --- -. . / ... .- -.-- ... / - .... .- - / .. -. - . .-.. .-.. .. --. . -. -.-. . / .. ... / -. --- - / .. -- .--. --- .-. - .- -. - --..-- / -... ..- - / .. - / .. ... / ..-. .- .-. / .-.. . ... ... / .. -- .--. --- .-. - .- -. - / - .... .- -. / ..-. .- -.-. - --- .-. ... / ... ..- -.-. .... / .- ... / -.. . - . .-. -- .. -. .- - .. --- -. / .- -. -.. / .... .- .-. -.. / .-- --- .-. -.- .-.-.- / - .... . / .--. --- .. -. - / .. ... / - .... .- - / -.-- --- ..- / -.. --- -. .-..-. - / .... .- ...- . / - --- / -... . / .- / --. . -. .. ..- ... / - --- / .--. . .-. ..-. --- .-. -- / .-- . .-.. .-.. / .. -. / ... -.-. .... --- --- .-.. # / -- --- ... - / --. .. ..-. - . -.. / ... - ..- -.. . -. - ... / .- .-.. ... --- / .... .- ...- . / - --- / ... - ..- -.. -.-- / .... .- .-. -.. / - --- / .- -.-. .... .. . ...- . / - .... . .. .-. / -.-. ..- .-. .-. . -. - / .- -.-. .... .. . ...- . -- . -. - ... .-.-.- / ..-. .- -- .. .-.. -.-- / ... ..- .--. .--. --- .-. - / .- -. -.. / .--. .- .-. . -. - .- .-.. / .--. .-. . ... ... ..- .-. . / --. .. ..-. - . -.. / ... - ..- -.. . -. - ... / .-. .- -. -.- / - .... . / ... ..- .--. .--. --- .-. - / --- ..-. / - .... . .. .-. / ..-. .- -- .. .-.. .. . ... / .... .. --. .... . .-. / - .... .- -. / - .... . .. .-. / .--. .- .-. . -. - ... / .-- .... --- / .- .-.. .-- .- -.-- ... / .- ... -.- / - .... . -- / - --- / --. . - / .- .-..-. ... .-.-.- / .. -. / -- -.-- / ... ..- .-. ...- . -.-- --..-- / - .... . / ...- .- ... - / -- .- .--- --- .-. .. - -.-- / --- ..-. / .--. . --- .--. .-.. . / -.--. .- -... --- ..- - / - .... .-. . . -....- --.- ..- .- .-. - . .-. ... -.--.- / ... .- .. -.. / - .... . .. .-. / .--. .- .-. . -. - ... / ... ..- .--. .--. --- .-. - / - .... . -- .-.-.- / --- -. .-.. -.-- / .---- ---.. # / ... .- .. -.. / - .... .- - / --. . - - .. -. --. / --. --- --- -.. / --. .-. .- -.. . ... / .-- .- ... / .--. .-. . ... ... ..- .-. . -.. / -... -.-- / - .... . .. .-. / .--. .- .-. . -. - ... --..-- / .- -. -.. / --... # / --- ..-. / .--. .- .-. . -. - ... / -.. .. -.. -. .-..-. - / -.-. .- .-. . / .- -... --- ..- - / - .... . .. .-. / ... -.-. .... --- --- .-.. / .--. . .-. ..-. --- .-. -- .- -. -.-. . .-.-.-"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibrate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

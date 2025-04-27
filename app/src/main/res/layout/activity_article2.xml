@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Article2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="408dp"
+        android:layout_height="257dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="413dp"
+            android:layout_height="329dp"
+            android:text="Sophia Amoruso is an American businesswoman who was the former CEO of Nasty Gal and founder of GIRLBOSS. Growing up, she wasn’t a very happy kid. Doctors thought she had Tourette’s syndrome. Later, she was diagnosed with Attention Deficit Hyperactivity Disorder (ADHD) and depression.
+
+However, none of this hindered her will. She opened a lemonade stand at 9 years and read many books about startups as a teenager. In addition, she dropped out of college but held a full-time job. By the age of 22, she had worked 10 different jobs.
+
+She opened an eBay shop to work in her spare time and shipped her products with the tips she earned in photography class. Over time, she developed an eye for product selection. She got two Chanel jackets at a yard sale for $8 and sold them on eBay for $3000.
+
+Later on, she built her own site and sold her products from there. Her company was doing well, and she was on the Forbes 30 under 30 list. Of course, things couldn’t always be smooth since she lacked the management skills to run the company, and things took a turn for the worse. The company entered bankruptcy proceedings; lawsuits followed. Hence, she resigned as the CEO but kept a senior executive post.
+
+Despite all these downfalls, she didn’t let her situation dampen her spirits. She published her autobiography titled #GIRLBOSS. The book was on the New York Times bestseller list for 18 weeks straight!
+
+Her story has many more twists and turns, but they all tell us the same thing. Never give up.
+
+Motivational stories takeaway
+Success can sometimes get to your head, and you may lose your way. It’s important to prioritize your goals and learn who you are. Building your own identity in a world where people love putting tags is difficult. When you know and understand your strengths and weaknesses, those tags will not affect you negatively. "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.159" />
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="411dp"
+        android:layout_height="342dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="413dp"
+            android:layout_height="329dp"
+            android:text="... --- .--. .... .. .- / .- -- --- .-. ..- ... --- / .. ... / .- -. / .- -- . .-. .. -.-. .- -. / -... ..- ... .. -. . ... ... .-- --- -- .- -. / .-- .... --- / .-- .- ... / - .... . / ..-. --- .-. -- . .-. / -.-. . --- / --- ..-. / -. .- ... - -.-- / --. .- .-.. / .- -. -.. / ..-. --- ..- -. -.. . .-. / --- ..-. / --. .. .-. .-.. -... --- ... ... .-.-.- / --. .-. --- .-- .. -. --. / ..- .--. --..-- / ... .... . / .-- .- ... -. .-..-. - / .- / ...- . .-. -.-- / .... .- .--. .--. -.-- / -.- .. -.. .-.-.- / -.. --- -.-. - --- .-. ... / - .... --- ..- --. .... - / ... .... . / .... .- -.. / - --- ..- .-. . - - . .-..-. ... / ... -.-- -. -.. .-. --- -- . .-.-.- / .-.. .- - . .-. --..-- / ... .... . / .-- .- ... / -.. .. .- --. -. --- ... . -.. / .-- .. - .... / .- - - . -. - .. --- -. / -.. . ..-. .. -.-. .. - / .... -.-- .--. . .-. .- -.-. - .. ...- .. - -.-- / -.. .. ... --- .-. -.. . .-. / -.--. .- -.. .... -.. -.--.- / .- -. -.. / -.. . .--. .-. . ... ... .. --- -. .-.-.- / .... --- .-- . ...- . .-. --..-- / -. --- -. . / --- ..-. / - .... .. ... / .... .. -. -.. . .-. . -.. / .... . .-. / .-- .. .-.. .-.. .-.-.- / ... .... . / --- .--. . -. . -.. / .- / .-.. . -- --- -. .- -.. . / ... - .- -. -.. / .- - / ----. / -.-- . .- .-. ... / .- -. -.. / .-. . .- -.. / -- .- -. -.-- / -... --- --- -.- ... / .- -... --- ..- - / ... - .- .-. - ..- .--. ... / .- ... / .- / - . . -. .- --. . .-. .-.-.- / .. -. / .- -.. -.. .. - .. --- -. --..-- / ... .... . / -.. .-. --- .--. .--. . -.. / --- ..- - / --- ..-. / -.-. --- .-.. .-.. . --. . / -... ..- - / .... . .-.. -.. / .- / ..-. ..- .-.. .-.. -....- - .. -- . / .--- --- -... .-.-.- / -... -.-- / - .... . / .- --. . / --- ..-. / ..--- ..--- --..-- / ... .... . / .... .- -.. / .-- --- .-. -.- . -.. / .---- ----- / -.. .. ..-. ..-. . .-. . -. - / .--- --- -... ... .-.-.- / ... .... . / --- .--. . -. . -.. / .- -. / . -... .- -.-- / ... .... --- .--. / - --- / .-- --- .-. -.- / .. -. / .... . .-. / ... .--. .- .-. . / - .. -- . / .- -. -.. / ... .... .. .--. .--. . -.. / .... . .-. / .--. .-. --- -.. ..- -.-. - ... / .-- .. - .... / - .... . / - .. .--. ... / ... .... . / . .- .-. -. . -.. / .. -. / .--. .... --- - --- --. .-. .- .--. .... -.-- / -.-. .-.. .- ... ... .-.-.- / --- ...- . .-. / - .. -- . --..-- / ... .... . / -.. . ...- . .-.. --- .--. . -.. / .- -. / . -.-- . / ..-. --- .-. / .--. .-. --- -.. ..- -.-. - / ... . .-.. . -.-. - .. --- -. .-.-.- / ... .... . / --. --- - / - .-- --- / -.-. .... .- -. . .-.. / .--- .- -.-. -.- . - ... / .- - / .- / -.-- .- .-. -.. / ... .- .-.. . / ..-. --- .-. / # ---.. / .- -. -.. / ... --- .-.. -.. / - .... . -- / --- -. / . -... .- -.-- / ..-. --- .-. / # ...-- ----- ----- ----- .-.-.- / .-.. .- - . .-. / --- -. --..-- / ... .... . / -... ..- .. .-.. - / .... . .-. / --- .-- -. / ... .. - . / .- -. -.. / ... --- .-.. -.. / .... . .-. / .--. .-. --- -.. ..- -.-. - ... / ..-. .-. --- -- / - .... . .-. . .-.-.- / .... . .-. / -.-. --- -- .--. .- -. -.-- / .-- .- ... / -.. --- .. -. --. / .-- . .-.. .-.. --..-- / .- -. -.. / ... .... . / .-- .- ... / --- -. / - .... . / ..-. --- .-. -... . ... / ...-- ----- / ..- -. -.. . .-. / ...-- ----- / .-.. .. ... - .-.-.- / --- ..-. / -.-. --- ..- .-. ... . --..-- / - .... .. -. --. ... / -.-. --- ..- .-.. -.. -. .-..-. - / .- .-.. .-- .- -.-- ... / -... . / ... -- --- --- - .... / ... .. -. -.-. . / ... .... . / .-.. .- -.-. -.- . -.. / - .... . / -- .- -. .- --. . -- . -. - / ... -.- .. .-.. .-.. ... / - --- / .-. ..- -. / - .... . / -.-. --- -- .--. .- -. -.-- --..-- / .- -. -.. / - .... .. -. --. ... / - --- --- -.- / .- / - ..- .-. -. / ..-. --- .-. / - .... . / .-- --- .-. ... . .-.-.- / - .... . / -.-. --- -- .--. .- -. -.-- / . -. - . .-. . -.. / -... .- -. -.- .-. ..- .--. - -.-. -.-- / .--. .-. --- -.-. . . -.. .. -. --. ... # / .-.. .- .-- ... ..- .. - ... / ..-. --- .-.. .-.. --- .-- . -.. .-.-.- / .... . -. -.-. . --..-- / ... .... . / .-. . ... .. --. -. . -.. / .- ... / - .... . / -.-. . --- / -... ..- - / -.- . .--. - / .- / ... . -. .. --- .-. / . -..- . -.-. ..- - .. ...- . / .--. --- ... - .-.-.- / -.. . ... .--. .. - . / .- .-.. .-.. / - .... . ... . / -.. --- .-- -. ..-. .- .-.. .-.. ... --..-- / ... .... . / -.. .. -.. -. .-..-. - / .-.. . - / .... . .-. / ... .. - ..- .- - .. --- -. / -.. .- -- .--. . -. / .... . .-. / ... .--. .. .-. .. - ... .-.-.- / ... .... . / .--. ..- -... .-.. .. ... .... . -.. / .... . .-. / .- ..- - --- -... .. --- --. .-. .- .--. .... -.-- / - .. - .-.. . -.. / # --. .. .-. .-.. -... --- ... ... .-.-.- / - .... . / -... --- --- -.- / .-- .- ... / --- -. / - .... . / -. . .-- / -.-- --- .-. -.- / - .. -- . ... / -... . ... - ... . .-.. .-.. . .-. / .-.. .. ... - / ..-. --- .-. / .---- ---.. / .-- . . -.- ... / ... - .-. .- .. --. .... - -.-.-- / .... . .-. / ... - --- .-. -.-- / .... .- ... / -- .- -. -.-- / -- --- .-. . / - .-- .. ... - ... / .- -. -.. / - ..- .-. -. ... --..-- / -... ..- - / - .... . -.-- / .- .-.. .-.. / - . .-.. .-.. / ..- ... / - .... . / ... .- -- . / - .... .. -. --. .-.-.- / -. . ...- . .-. / --. .. ...- . / ..- .--. .-.-.- / -- --- - .. ...- .- - .. --- -. .- .-.. / ... - --- .-. .. . ... / - .- -.- . .- .-- .- -.-- / ... ..- -.-. -.-. . ... ... / -.-. .- -. / ... --- -- . - .. -- . ... / --. . - / - --- / -.-- --- ..- .-. / .... . .- -.. --..-- / .- -. -.. / -.-- --- ..- / -- .- -.-- / .-.. --- ... . / -.-- --- ..- .-. / .-- .- -.-- .-.-.- / .. - .-..-. ... / .. -- .--. --- .-. - .- -. - / - --- / .--. .-. .. --- .-. .. - .. --.. . / -.-- --- ..- .-. / --. --- .- .-.. ... / .- -. -.. / .-.. . .- .-. -. / .-- .... --- / -.-- --- ..- / .- .-. . .-.-.- / -... ..- .. .-.. -.. .. -. --. / -.-- --- ..- .-. / --- .-- -. / .. -.. . -. - .. - -.-- / .. -. / .- / .-- --- .-. .-.. -.. / .-- .... . .-. . / .--. . --- .--. .-.. . / .-.. --- ...- . / .--. ..- - - .. -. --. / - .- --. ... / .. ... / -.. .. ..-. ..-. .. -.-. ..- .-.. - .-.-.- / .-- .... . -. / -.-- --- ..- / -.- -. --- .-- / .- -. -.. / ..- -. -.. . .-. ... - .- -. -.. / -.-- --- ..- .-. / ... - .-. . -. --. - .... ... / .- -. -.. / .-- . .- -.- -. . ... ... . ... --..-- / - .... --- ... . / - .- --. ... / .-- .. .-.. .-.. / -. --- - / .- ..-. ..-. . -.-. - / -.-- --- ..- / -. . --. .- - .. ...- . .-.. -.-- .-.-.-"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibrate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

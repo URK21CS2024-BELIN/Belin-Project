@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B444F"
+    tools:context=".SpeechToMorse">
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="376dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:breakStrategy="simple"
+        android:hint="Speak here..."
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textOutput"
+        android:layout_width="390dp"
+        android:layout_height="153dp"
+        android:layout_below="@+id/textInput"
+        android:layout_marginTop="8dp"
+        android:singleLine="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/speechButton"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textOutput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#c3f44e"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Speak"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textOutput" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#c3f44e"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Save"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/morseButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/morseButton"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/saveButton"
+        android:layout_below="@+id/speechButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#c3f44e"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Read Morse Code"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/speechButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Morse Code:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInput" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

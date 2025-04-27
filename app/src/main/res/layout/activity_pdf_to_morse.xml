@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1b444f"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/morse_code_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#00BCD4" />
+
+    <Button
+        android:id="@+id/select_file_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#c3f44e"
+        android:fontFamily="@font/akaya_telivigala"
+        android:onClick="onSelectFileButtonClick"
+        android:text="Select File"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Select a PDF file:"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/vibrate_button"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#c3f44e"
+        android:fontFamily="@font/akaya_telivigala"
+        android:onClick="onVibrateButtonClick"
+        android:text="Vibrate Morse Code"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+</LinearLayout>
